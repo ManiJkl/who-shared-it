@@ -1,0 +1,29 @@
+{
+  "name": "who-shared-it",
+  "version": "1.0.0",
+  "description": "Who Shared It - party game for guessing who shared each short video",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node server/app.js"
+  },
+  "keywords": [
+    "party-game",
+    "express",
+    "tiktok",
+    "instagram",
+    "reels"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "uuid": "^10.0.0",
+    "yt-dlp-exec": "^1.0.2"
+  },
+  "allowScripts": {
+    "yt-dlp-exec@1.0.2": true
+  }
+}
